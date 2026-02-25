@@ -1,0 +1,87 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center the app */
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input */
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #4e73df;
+}
+
+/* Currency Row */
+.currency-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Dropdown */
+select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Swap Button */
+.swap-btn {
+  padding: 8px 12px;
+  font-size: 18px;
+  border: none;
+  background: #4e73df;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.swap-btn:hover {
+  background: #2e59d9;
+}
+
+/* Result */
+.result h3 {
+  color: #1cc88a;
+  font-weight: bold;
+}
